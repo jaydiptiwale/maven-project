@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T00:05:57 PST" name="Default suite" finished-at="2024-12-20T00:06:10 PST" duration-ms="12553">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T00:05:57 PST" name="Default test" finished-at="2024-12-20T00:06:10 PST" duration-ms="12553">
+      <class name="module1_loginTestClass.swagloginTestNGclassWithbaseClass">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be]" started-at="2024-12-20T00:05:57 PST" name="openbrowser" finished-at="2024-12-20T00:06:04 PST" duration-ms="6386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be]" started-at="2024-12-20T00:06:04 PST" name="login" finished-at="2024-12-20T00:06:04 PST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifylogo()[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be]" started-at="2024-12-20T00:06:04 PST" name="verifylogo" finished-at="2024-12-20T00:06:05 PST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="logout(org.testng.ITestResult)[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be]" started-at="2024-12-20T00:06:05 PST" name="logout" finished-at="2024-12-20T00:06:10 PST" duration-ms="4271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogo status=SUCCESS method=swagloginTestNGclassWithbaseClass.verifylogo()[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:module1_loginTestClass.swagloginTestNGclassWithbaseClass@1cf6d1be]" started-at="2024-12-20T00:06:10 PST" name="closebrowser" finished-at="2024-12-20T00:06:10 PST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- module1_loginTestClass.swagloginTestNGclassWithbaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
